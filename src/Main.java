@@ -30,5 +30,18 @@ public class Main {
         } else {
             System.out.println("Год должен быть больше 1584");
         }
+        System.out.println("Task 4");
+        int deliveryDistance = 95;
+        if (deliveryDistance < 20) {
+            System.out.println("Потребуется 1 день, на расстояние = " + deliveryDistance);
+        } else if (deliveryDistance >=20 && deliveryDistance <=60) {
+                System.out.println("Потребуется 2 дня, расстояние = " + deliveryDistance);
+        } else if (deliveryDistance >=60 && deliveryDistance <=100) {
+            System.out.println("Потребуется 3 дня, расстояние = " + deliveryDistance);
+        }else {
+            System.out.println("Доставка не предусмотрена");
+        }
+        System.out.println("Task5");
+
     }
 }
